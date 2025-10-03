@@ -8,29 +8,23 @@
     <h1>Login Form</h1>
 
     <form id="login-form">
-      <input
-        type="text"
-        id="username"
-        placeholder="Username"
-        required
-      /><br />
+      <!-- Username Label and Input -->
+      <label for="username">Username:</label><br />
+      <input type="text" id="username" /><br />
 
-      <input
-        type="password"
-        id="password"
-        placeholder="Password"
-        required
-      /><br />
+      <!-- Password Label and Input -->
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" /><br />
 
-      <label>
-        <input type="checkbox" id="checkbox" />
-        Remember me.
-      </label><br />
+      <!-- Remember Me Label and Checkbox -->
+      <label for="checkbox">Remember me:</label>
+      <input type="checkbox" id="checkbox" /><br />
 
+      <!-- Submit -->
       <input type="submit" id="submit" value="Submit" />
     </form>
 
-    <!-- Hidden button for existing user login -->
+    <!-- Hidden Existing User Button -->
     <button id="existing" style="display: none">Login as existing user</button>
 
     <script type="text/javascript" src="./script.js"></script>
